@@ -1,4 +1,3 @@
-# DetectarIPRedTor
-# DetectarIPRedTor
-# DetectarIPRedTor
-# DetectarIPRedTor
+Prueba de Ejecución 
+
+IP=$(curl https://ifconfig.me) | ./detectariptor.sh $IP 
