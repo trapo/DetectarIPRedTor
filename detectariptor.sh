@@ -18,7 +18,7 @@ else
         DATEMENOS=$(date --date='-2 day' +%Y-%m-%d)
         #echo $DATEMENOS
 
-        RESULTADOCURL=$(curl "https://metrics.torproject.org/exonerator.html?ip=$IP&timestamp=$DATEMENOS&lang=en" -m 3 | grep "Result is")
+        RESULTADOCURL=$(curl "https://metrics.torproject.org/exonerator.html?ip=$IP&timestamp=$DATEMENOS&lang=en" -m 30 | grep "Result is")
         #echo $RESULTADOCURL
 
         if
